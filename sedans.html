@@ -3,191 +3,174 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>S&F GARAGE</title>
-    <link rel="icon" type="image/x-icon" href="/imagens/icone-garage.png">
+    <title>ESPORTIVOS</title>
+    <link rel="icon" href="imagens/logo-garage.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-        crossorigin="anonymous"></script>
 </head>
 
+<body class="bg-dark">
 
-<body class="bg-light p-4"></body>
+    <header>
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="imagens/logo-garage.png" alt="logo-garage" width="60" height="60"
+                        class="d-inline-block align-text-top">
+                    S&F GARAGE
+                </a>
+            </div>
+        </nav>
+    </header>
 
-<header>
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img src="imagens/icone-garage.png" alt="Logo" width="30" height="24"
-                    class="d-inline-block align-text-top">
-                <h1> S&F GARAGE</h1>
-            </a>
-        </div>
-    </nav>
-</header>
-
-
-<main>
-
-    <div class="row">
-
-        <div class="col-md-6">
-
-            <div class="card mx-auto" style="width: 40rem;">
-                <div id="carouselEsportivo" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="imagens/BMW-M5-COMPETITION-01-1280x720.jpg" class="d-block w-100" alt="Carro 1">
+    <main class="container py-5">
+        <h1>CONHEÇA NOSSOS SEDANS DISPONÍVEIS</h1>
+        <div class="row g-5">
+            <div class="col-12 col-lg-6">
+                <div class="card mx-auto">
+                    <div id="carouselF150" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagens/BMW-M5-COMPETITION-01-1280x720.jpg" class="d-block w-100"
+                                    alt="BMW M5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/2025 BMW M5 interior .jpg" class="d-block w-100"
+                                    alt="BMW M5 Interior">
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img src="imagens/2025 BMW M5 interior .jpg" class="d-block w-100" alt="Carro 2">
-                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselbmw"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselbmw"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEsportivo"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEsportivo"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Próximo</span>
-                    </button>
+                    <div class="card-body">
+                        <h5 class="card-title text-light">BMW M5</h5>
+                        <p class="card-text">
+                            O BMW M5 é um sedã esportivo de alto desempenho. Equipado com motor V8 biturbo de até 625
+                            cv, acelera de 0 a 100 km/h em cerca de 3,3 segundos, unindo luxo, tecnologia e potência.
+                        </p>
+                        <a href="form.html" class="btn btn-primary">Estou Interessado</a>
+                    </div>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">BMW M5</h5>
-                    <p class="card-text">
-                        O BMW M5 é um sedã esportivo de alto desempenho. Equipado com motor V8 biturbo de até 625 cv,
-                        acelera de 0 a 100 km/h em cerca de 3,3 segundos, unindo luxo, tecnologia e potência.</p>
-                    <a href="#" class="btn btn-primary">Estou interessado</a>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="card mx-auto">
+                    <div id="carouselTundra" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagens/mercedes-amg-gt-63-s-nurburgring-nordschleife-record-three-quarters.jpg"
+                                    class="d-block w-100" alt="Mercedes GT63">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/mercedes_interior.jpg" class="d-block w-100"
+                                    alt="Mercedes GT63 Interior">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselmercedes"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselmercedes"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Mercedes GT63</h5>
+                        <p class="card-text">
+                            O Mercedes-AMG GT 63 é um coupé de quatro portas com motor V8 biturbo de até 639 cv. Vai de
+                            0 a 100 km/h em cerca de 3,2 segundos, combinando luxo, espaço e alto desempenho.
+                        </p>
+                        <a href="form.html" class="btn btn-primary">Estou Interessado</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="card mx-auto">
+                    <div id="carouselRam" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagens/2019-audi-a7.jpg" class="d-block w-100" alt="Audi A7">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/HD-wallpaper-2020-audi-a7-sportback-55-tfsi-e-quattro-plug-in-hybrid-interior-car.jpg"
+                                    class="d-block w-100" alt="Audi A7 Interior">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselaudi"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselaudi"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Audi A7</h5>
+                        <p class="card-text">
+                            O Audi A7 é um coupé de quatro portas com motor V6 turbo de até 340 cv. Une design
+                            elegante, tecnologia avançada e conforto, com desempenho esportivo e tração quattro.
+                        </p>
+                        <a href="form.html" class="btn btn-primary">Estou Interessado</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <div class="card mx-auto">
+                    <div id="carouselSilverado" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imagens/Jaguar_XE_2016-Ok-1280x720.jpg" class="d-block w-100" alt="Jaguar XE">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imagens/Jaguar-XE-2020-1600-59.jpg" class="d-block w-100"
+                                    alt="Jaguar XE Interior">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouseljaguar"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouseljaguar"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-light">Jaguar XE</h5>
+                        <p class="card-text">
+                            O Jaguar XE é um sedã esportivo com motor de até 300 cv, tração traseira ou integral.
+                            Combina luxo britânico, tecnologia moderna e uma condução dinâmica.
+                        </p>
+                        <a href="form.html" class="btn btn-primary">Estou Interessado</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card mx-auto" style="width: 40rem;">
-            <div id="carouselEsportivo2" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="imagens/mercedes-amg-gt-63-s-nurburgring-nordschleife-record-three-quarters.jpg"
-                            class="d-block w-100" alt="Carro 1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="imagens/mercedes_interior.jpg" class="d-block w-100" alt="Carro 2">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselEsportivo2"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Anterior</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselEsportivo2"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Próximo</span>
-                </button>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Mercedes GT63</h5>
-                <p class="card-text">
-                    O Mercedes-AMG GT 63 é um coupé de quatro portas com motor V8 biturbo de até 639 cv. Vai de 0 a 100
-                    km/h em cerca de 3,2 segundos, combinando luxo, espaço e alto desempenho.
-                </p>
-                <a href="#" class="btn btn-primary">Estou Interessado</a>
-            </div>
-        </div>
+    </main>
 
+    <footer class="container mt-5 border-top pt-3">
+        <p class="text-center text-secondary mb-0">&copy; 2025 Desenvolvido por Gabriel Alan Scaratti & Vinícius Ferrari
+        </p>
+    </footer>
 
-
-        <div class="col-md-6">
-
-            <div class="card mx-auto" style="width: 40rem;">
-                <div id="carouselEsportivo3" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="imagens/2019-audi-a7.jpg" class="d-block w-100" alt="Carro 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imagens/HD-wallpaper-2020-audi-a7-sportback-55-tfsi-e-quattro-plug-in-hybrid-interior-car.jpg"
-                                class="d-block w-100" alt="Carro 2">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEsportivo3"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEsportivo3"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Próximo</span>
-                    </button>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Audi A7</h5>
-                    <p class="card-text">
-                        O Audi A7 é um coupé de quatro portas com motor V6 turbo de até 340 cv. Une design elegante,
-                        tecnologia avançada e conforto, com desempenho esportivo e tração quattro.
-                    </p>
-                    <a href="#" class="btn btn-primary">Estou interessado</a>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="col-md-6">
-
-            <div class="card mx-auto" style="width: 40rem;">
-                <div id="carouselEsportivo4" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="imagens/Jaguar_XE_2016-Ok-1280x720.jpg" class="d-block w-100" alt="Carro 1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imagens/Jaguar-XE-2020-1600-59.jpg" class="d-block w-100" alt="Carro 2">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEsportivo4"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Anterior</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEsportivo4"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Próximo</span>
-                    </button>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Jaguar XE</h5>
-                    <p class="card-text">
-                        O Jaguar XE é um sedã esportivo com motor de até 300 cv, tração traseira ou integral. Combina
-                        luxo britânico, tecnologia moderna e uma condução dinâmica.
-                    </p>
-                    <a href="#" class="btn btn-primary">Estou interessado</a>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-</main>
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
+</html>
